@@ -1,5 +1,5 @@
-![image](https://github.com/sam-trg/daa-lab/assets/90459209/a82f4296-d2b4-42a1-af20-770128105523)
-
+![image](https://github.com/sam-trg/daa-lab/assets/90459209/73278e6e-a60f-44d6-b073-2e20a8e7da3b)
+![image](https://github.com/sam-trg/daa-lab/assets/90459209/e4643399-53d4-44ea-833f-7ba09ef7e072)
 
 [Right Click to open Data in New Tab](https://learnermanipal-my.sharepoint.com/:x:/r/personal/samarth_mitblr2022_learner_manipal_edu/Documents/DAA-LAB.xlsx?d=w5297308de2a242258f09dad285d6c59e&csf=1&web=1&e=Vsiwxs&nav=MTVfezVFMzQ4MDRCLUZEQTQtNDlFQS1BRjYwLUZDQzZGODM4RUVFNX0)
 
