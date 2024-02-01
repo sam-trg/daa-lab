@@ -24,6 +24,30 @@ void insertionSort(int *a, unsigned int n) {
 ```
 
 # DFS
+![image](https://github.com/sam-trg/daa-lab/assets/90459209/56e354b3-f505-4b3c-80ab-451732133fd4)
+
 ```c
-//
+void topologicalSort(struct Graph* graph) {
+
+  struct Stack* stack = createStack(graph->V);
+
+  // Mark all vertices as not visited
+  for (int i = 0; i < graph->V; i++) {
+    graph->visited[i] = 0;
+  }
+
+  printf("Op Count: %d, V: %d\n", opcount, graph->V);
+  
+  // Call recursive helper function
+  for (int i = 0; i < graph->V; i++) {
+    if(graph->visited[i] == 0) {
+      topologicalSortUtil(graph, i, stack);
+    }
+  }
+  
+  // Print contents of stack 
+  while (!isEmpty(stack)) {
+    printf("%d ", pop(stack));
+  }
+}
 ```
