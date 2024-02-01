@@ -1,6 +1,8 @@
 # Space and Time Complexity for Brute Force Approach
 
 ## Knapsack Problem
+![image](https://github.com/sam-trg/daa-lab/assets/90459209/c34db559-d4df-49c5-8649-2426a1d2d3be)
+![image](https://github.com/sam-trg/daa-lab/assets/90459209/4283d004-5a61-4498-acdc-566147a8712c)
 ```c
 int Knapsack(unsigned int *w, unsigned int *v, unsigned int n, unsigned int B) {
     clock_t start = clock(), end;
@@ -25,11 +27,11 @@ int Knapsack(unsigned int *w, unsigned int *v, unsigned int n, unsigned int B) {
 
 ```
 
-![image](https://github.com/sam-trg/daa-lab/assets/90459209/f11d9a8a-7524-40ef-985a-459a77667309)
 
-![image](https://github.com/sam-trg/daa-lab/assets/90459209/1caf3fcf-45ad-4e43-8e6d-395d19899a51)
 
 ## Assignment Problem
+![image](https://github.com/sam-trg/daa-lab/assets/90459209/4f7ebd51-27c8-44fc-992b-fbde7cbbe8fc)
+![image](https://github.com/sam-trg/daa-lab/assets/90459209/cdc864c9-e8d8-4ec3-a815-a83e2433e83a)
 ```c
 void bruteForceAssignment(int costMatrix[][N_MAX], int n) {
     int assignment[N_MAX];
@@ -56,13 +58,4 @@ void bruteForceAssignment(int costMatrix[][N_MAX], int n) {
 
 ```
 
-
-![image](https://github.com/sam-trg/daa-lab/assets/90459209/468b514e-9579-4db4-889d-fb8390c29a83)
-
-![image](https://github.com/sam-trg/daa-lab/assets/90459209/5785e3ce-705f-4e1e-ae4a-8822d49c8ba1)
-
-
-
-
 [Right Click to open Data in New Tab](https://learnermanipal-my.sharepoint.com/:x:/r/personal/samarth_mitblr2022_learner_manipal_edu/Documents/DAA-LAB.xlsx?d=w5297308de2a242258f09dad285d6c59e&csf=1&web=1&e=LQoUTy&nav=MTVfezkzMzJCRDczLTg3MTgtNDk4Qy04RUJBLUQ1RDU5QUNCQjhDN30)
-
