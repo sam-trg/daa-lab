@@ -143,14 +143,35 @@ void topologicalSort(struct Graph* graph) {
 int main() {
   
   // Create a graph
-  int V = 5;
+  int V = 25;
   struct Graph* graph = createGraph(V);
   
+  // Add edges to the graph
   addEdge(graph, 0, 2);
   addEdge(graph, 0, 3); 
   addEdge(graph, 1, 3);
   addEdge(graph, 1, 4);
   addEdge(graph, 2, 3);
+  addEdge(graph, 3, 5);
+  addEdge(graph, 4, 6);
+  addEdge(graph, 5, 7);
+  addEdge(graph, 6, 8);
+  addEdge(graph, 7, 9);
+  addEdge(graph, 8, 10);
+  addEdge(graph, 9, 11);
+  addEdge(graph, 10, 12);
+  addEdge(graph, 11, 13);
+  addEdge(graph, 12, 14);
+  addEdge(graph, 13, 15);
+  addEdge(graph, 14, 16);
+  addEdge(graph, 15, 17);
+  addEdge(graph, 16, 18);
+  addEdge(graph, 17, 19);
+  addEdge(graph, 18, 20);
+  addEdge(graph, 19, 21);
+  addEdge(graph, 20, 22);
+  addEdge(graph, 21, 23);
+  addEdge(graph, 22, 24);
 
   // Find topological sort
   topologicalSort(graph);
