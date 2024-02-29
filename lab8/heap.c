@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <time.h>
+
+clock_t start, end;
 
 void heapify(int h[], int n) {
     int i, k, v, j;
@@ -38,12 +41,16 @@ int main() {
         printf("%d\t", h[i]);
     }
 
+    start = clock();
     heapify(h, n);
+    end = clock();
 
     printf("\nThe heap created: ");
     for (i = 1; i <= n; i++) {
         printf("%d\t", h[i]);
     }
+
+    printf("\nTime elapsed = %lf", (double) (end - start) / CLOCKS_PER_SEC);
 
     return 0;
 }
